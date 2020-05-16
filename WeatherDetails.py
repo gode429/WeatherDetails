@@ -5,9 +5,7 @@ import time
 import pandas as pd
 import urllib
 import re
-import pickle
 import math
-from openpyxl.workbook import Workbook
 
 columns = ['Date (yyyy-mm-dd)', 'Average temperature (°F)', 'Average humidity (%)', 'Average dewpoint (°F)',
            'Average barometer (in)', 'Average windspeed (mph)', 'Average gustspeed (mph)',
